@@ -1,0 +1,5 @@
+name: Assignment
+description: Created for assignment.
+package: Custom
+type: module
+core: 8.x

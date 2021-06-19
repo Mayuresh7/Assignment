@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function assignment_theme($existing, $type, $theme, $path) {
+  return [
+    'datetime_with_timezone' => [
+      'variables' => [
+        'country' => null,
+        'city' => null,
+        'date_time' => null,
+      ],
+      'template' => 'datetime-with-timezone',
+    ],
+  ];
+}
